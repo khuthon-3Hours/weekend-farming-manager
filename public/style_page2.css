@@ -1,0 +1,19 @@
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .phone-frame {
+    width: 23%;
+    height: 90%;
+    background: #c4f6cd;
+    border-radius: 6%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+  }
+    
