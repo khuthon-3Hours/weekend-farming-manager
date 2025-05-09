@@ -83,6 +83,26 @@ body {
     outline: none;
 }
 
+/*box*/
+.info-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.5rem;
+  margin: 0px;
+  max-width: 500px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.info-box h3, .info-box h4 {
+  margin: 0.5rem 0;
+}
+
+.info-box ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0 0 0;
+}
 
 .grid {
     width: 100%;
@@ -103,7 +123,7 @@ body {
 .middle-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 /* Go button */
 .go-button {

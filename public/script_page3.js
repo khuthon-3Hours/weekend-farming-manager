@@ -24,6 +24,16 @@ function renderCards() {
     const img = document.createElement("img");
     img.src = data.img;
 
+    img.addEventListener('click', () => {
+      if(index == 0){
+        window.location.href = 'page4.html?hint=0'; // 상세페이지로 이동
+      }
+      else if(index == 3){
+        window.location.href = 'page4.html?hint=4'; // 상세페이지로 이동
+      }
+
+    });
+
     const titleWrapper = document.createElement("div");
     titleWrapper.style.display = "flex";
     titleWrapper.style.alignItems = "center";

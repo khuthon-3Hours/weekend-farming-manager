@@ -1,12 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
   const hintPage = document.getElementById('hintPage');
   const hint = new URLSearchParams(window.location.search).get("hint");
-  const Hint = ['support', 'cut', 'cut2', 'harvest']  
+  const Hint = ['support', 'cut', 'cut2', 'harvest', 'water']  
   const youtubeUrl = {
     support:"https://www.youtube.com/watch?v=DoTRWplEdxg",    //지지대 설치
     cut: "https://www.youtube.com/watch?v=HIcHx24OSDw",       //곁순 제거
     cut2: "https://www.youtube.com/watch?v=Jf4ZdFwNnwM",      //적심
-    harvest: "https://www.youtube.com/watch?v=jJTH5qbsces"    //수확
+    harvest: "https://www.youtube.com/watch?v=jJTH5qbsces",    //수확
+    water: "https://www.youtube.com/watch?v=wmCYrnShr48"      //물주기
   }
   
 
@@ -85,7 +86,18 @@ document.addEventListener('DOMContentLoaded', () => {
      -열매를 잡아서 꼭지 바로 위 마디 부분을 위로 꺾어주면 꼭지 마디가 톡 부러지면서 쉽게 딸 수 있습니다.
     
      -출처: "https://www.youtube.com/watch?v=jJTH5qbsces"
-     `
+     `,
+    water:`
+    방울 토마토 물 주기 영상입니다.
+
+     -방울 토마토는 초반에 한 번에 충분한 양을 주는 것이 좋습니다.
+
+     -보름 정도 지나 뿌리가 활착되면 1회 관수량을 줄이고 관수 횟수를 늘리는 것이 좋습니다. 
+     
+     -과도한 관수는 열매가 터지는 열과를 유발할 수 있습니다.
+
+     -출처: https://www.youtube.com/watch?v=wmCYrnShr48
+    `
   }
 
   const commentBox = document.createElement('div');
