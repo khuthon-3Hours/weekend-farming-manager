@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const contentBox = document.createElement('div');
   contentBox.style.backgroundColor = "#ffffff";
   contentBox.style.borderRadius = "12px";
-  contentBox.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.05)";
+  contentBox.style.boxShadow = "2px 4px 8px rgba(0, 0, 0, 0.15)";
+  contentBox.style.boxShadow.blur
   contentBox.style.padding = "1rem";
   contentBox.style.marginTop = "1rem";
   contentBox.style.fontSize = "0.9rem";

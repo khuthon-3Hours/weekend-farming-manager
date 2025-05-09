@@ -25,9 +25,9 @@
                 <button class="mode-toggle" type="button">그리드 설정 모드</button>
                 <!-- 그리드 행렬 세팅 -->
                 <div style="display: none;" class="grid-setting">
-                    <label for="row">행렬 세팅</label>
+                    <label for="row">행 세팅</label>
                     <input type="number" id="row" value="1" min="1" max="10" />
-                    <label for="column">행렬 세팅</label>
+                    <label for="column">열 세팅</label>
                     <input type="number" id="column" value="6" min="1" max="10" />
                 </div>
             </div>
@@ -49,15 +49,18 @@
         <div class="middle-container">
             <button class="go-button" type="button">Go!</button>
             <p class="info-box">
-                최근 방문일: 2025년 05월 01일 <br />
+                최근 방문일: 2025년 05월 10일 <br />
                 오늘의 할 일: 물주기
             </p>
         </div>
 
         <!-- 하단 프로그레스바 -->
         <div class="progress-wrapper">
+            남은 계약 기간: 6개월 20일
             <!-- value 값을 전체 기간 중 오늘의 비율(%)로 동적으로 설정해주세요 -->
-            <progress value="45" max="100"></progress>
+            <progress value="45" max="100">
+
+            </progress>
         </div>
     </div>
     <script src="script_page1.js"></script>
