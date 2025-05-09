@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const hintModel = new URLSearchParams(window.location.search).get("hintModel");
   const Model = ['a', 'b', 'c', 'd']  
   const text = {
-      a: "🌱 파종 이전 꿀팁",     //파종
-      b: "🌱 모종 이전 꿀팁",     //모종
-      c: "🌱 수확 이전 꿀팁",     //관리
-      d: "🌱 수확 시 꿀팁"        //수확
+      a: "😎 파종 이전 꿀팁",     //파종
+      b: "😎 모종 이전 꿀팁",     //모종
+      c: "😎 수확 이전 꿀팁",     //관리
+      d: "😎 수확 시 꿀팁"        //수확
   }
 
   const title = document.createElement('h2');
