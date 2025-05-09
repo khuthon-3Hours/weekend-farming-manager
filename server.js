@@ -13,3 +13,8 @@ app.use('/api', apiRoutes);
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+// 기본 라우트
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'page1.html'));
+});
