@@ -35,7 +35,7 @@ function renderCards() {
 
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-    checkbox.style.transform = "scale(3)";
+    checkbox.style.transform = "scale(2)";
     checkbox.style.cursor = "pointer";
     checkbox.checked = checkedStatus[index]; // ✅ 이전 체크 상태 반영
 

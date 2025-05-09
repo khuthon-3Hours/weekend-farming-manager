@@ -7,24 +7,22 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
         "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #111;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 /* 모바일 컨테이너너 */
 .mobile-container {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     /* 모바일 폭 제한 */
     height: 100vh;
     padding: 16px;
     border-radius: 8px;
-    background-color: grey;
+    background: #c4f6cd;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -51,7 +49,7 @@ body {
 /* 그리드 박스 */
 .grid-container {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     /* 모바일 폭 제한 */
     padding: 16px;
     padding-top: 30px;
@@ -62,7 +60,7 @@ body {
 
 /* 그리드 세팅 버튼 */
 .mode-toggle {
-    width: 160px;
+    width: 120px;
     height: 30px;
     background-color: rgb(37, 160, 13);
     border: none;
@@ -89,11 +87,11 @@ body {
 .grid {
     width: 100%;
     height: 100%;
-    max-height: 500px;
+    max-height: 400px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: 300px;
-    gap: 6px;
+    gap: 3px;
 }
 
 .grid-item {
@@ -105,7 +103,7 @@ body {
 /* 프로그레스바 컨테이너 */
 .progress-wrapper {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     padding: 16px;
 }
 
@@ -147,4 +145,9 @@ progress::-moz-progress-bar {
     border-radius: 8px;
     padding: 16px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid-setting input {
+    width: 32px;
+    height: 20px;
 }

@@ -16,5 +16,5 @@ app.listen(PORT, () => {
 
 // 기본 라우트
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'page2.html'));
+  res.sendFile(path.join(__dirname, 'public', 'page1.html'));
 });

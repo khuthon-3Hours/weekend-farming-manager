@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
   contentBox.style.marginTop = "1rem";
   contentBox.style.fontSize = "0.9rem";
   contentBox.style.fontWeight = "bold";
-  contentBox.style.width = "85%";
-  contentBox.style.maxWidth = "300px";
+  contentBox.style.width = "360px";
+  contentBox.style.maxWidth = "360px";
   contentBox.style.maxHeight = "100px";
   contentBox.style.margin = "0 auto";
 
