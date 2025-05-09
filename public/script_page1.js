@@ -31,7 +31,13 @@ gridItems.forEach(item => {
             currentItem = item;
             vegeSelectModal.style.display = 'flex';
         } else {
-            alert('상세페이지로 이동합니다.');
+            if (item.style.backgroundColor === 'red') {
+                window.location.href = 'page2.html'; // 상세페이지로 이동
+            } else if (item.style.backgroundColor === 'yellow') {
+
+            } else {
+
+            }
         }
     });
 });
@@ -87,3 +93,11 @@ const updateGrid = () => {
 };
 rowInput.addEventListener('input', updateGrid);
 columnInput.addEventListener('input', updateGrid);
+
+// go 버튼 클릭 시 페이지 이동
+const goButton = document.querySelector('.go-button');
+goButton.addEventListener('click', () => {
+
+    window.location.href = 'page3.html'; // 상세페이지로 이동
+
+});
