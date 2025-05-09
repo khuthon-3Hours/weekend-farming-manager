@@ -38,6 +38,7 @@ body {
   border-radius: 6%;
   border: 2px solid #111;
   object-fit: contain;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .tip-box {
@@ -52,6 +53,7 @@ body {
   position: relative;
   padding-top: 25px; /* 공간 확보 */
   padding-left: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .tip-box p {
@@ -66,6 +68,7 @@ body {
   color: #2d6a4f;
   font-size: 18px;
   font-weight: bold;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 #tipContent {
@@ -81,6 +84,7 @@ body {
   background-color: #eee;
   border-radius: 8px;
   font-size: 15px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .progress-bar {
